@@ -1,9 +1,11 @@
-import React from "react"
+import React from 'react'
 
-export default function App() {
+const App = () => {
+  // console.log(import.meta.env.VITE_APPWRITE_URL)
+  // console.log(import.meta.env.VITE_APPWRITE_PROJECT_ID)
   return (
-    <h1 className="text-3xl bg-red-400 font-bold">
-      Hello world!
-    </h1>
+    <div>App</div>
   )
 }
+
+export default App
