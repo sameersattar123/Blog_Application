@@ -28,7 +28,7 @@ const App = () => {
   <div className='w-full block'>
     <Header/>
     <Outlet/>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
     </div>
  ) : null
