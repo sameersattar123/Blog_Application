@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Header = () => {
+  console.log("header")
   return (
     <div className=''>
       
