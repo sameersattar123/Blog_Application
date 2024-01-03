@@ -99,7 +99,13 @@ const PostForm = ({ post }) => {
             });
           }}
         />
-        <RTE />
+        <RTE
+        label="Content :"
+        name="content"
+        control={control}
+        defaultValue={getValues("content")}
+
+        />
       </div>
 
       <div className="w-1/3 px-2">
